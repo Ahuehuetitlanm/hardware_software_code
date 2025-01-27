@@ -1,7 +1,7 @@
 def main():
   floweers = 5
   trees = 10
-  plants = flowers + trees 
+  plants = floweers + trees 
   print(plants)
 
   number1 = "rose"
@@ -9,5 +9,6 @@ def main():
   number3 = number1 + number2 
   print(number3)
 
-if__name__== "__main__":
+if __name__ == "__main__":
   main()
+
