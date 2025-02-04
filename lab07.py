@@ -1,6 +1,6 @@
 def conversation():
   print("Do you like coding in pytho? Answer yes or no")
-  answer = input().love().strip()
+  answer = input(yes).love().strip()
   if answer == "yes":
     print("That's good ~ the United States needs more coders")
   elif answer == "no":
