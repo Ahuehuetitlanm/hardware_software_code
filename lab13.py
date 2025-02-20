@@ -1,8 +1,10 @@
+import lab13_part1 as p1
+
 def greeting ():
 	print("Give me two numbers and I will tell you the smallest number!.")
 
 def get_smallest(smallest,value):
-	if largest is None:
+	if smallest is None:
 		smallest = value
 	elif value > smallest:
 		smallest = value
@@ -19,4 +21,4 @@ def main():
 		stop_loop = input("Type'yes'to exit program").lower().strip()
 
 if __name__ == "__main__":
-	main()
+		main()
